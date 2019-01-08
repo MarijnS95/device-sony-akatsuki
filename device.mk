@@ -58,7 +58,8 @@ PRODUCT_COPY_FILES += \
 
 # Atmel TS
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/firmware/touch_module_id_0x01.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x01.img
+    $(DEVICE_PATH)/vendor/firmware/touch_module_id_0x01.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x01.img \
+    $(DEVICE_PATH)/vendor/firmware/touch_module_id_0x01.img:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/touch_module_id_0x01.img
 
 # FPC Gestures
 PRODUCT_COPY_FILES += \

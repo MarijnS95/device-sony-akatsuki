@@ -42,8 +42,14 @@
     <bool name="config_enableBurnInProtection">true</bool>
 
     <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">false</bool>
+    <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
 
     <!-- MMS user agent prolfile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/H8416R5111.xml</string>
+
+    <!-- default window inset isRound property -->
+    <bool name="config_windowIsRound">true</bool>
 </resources>

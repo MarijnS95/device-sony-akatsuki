@@ -50,8 +50,12 @@
     <!-- MMS user agent prolfile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/H8416R5111.xml</string>
 
-    <!-- default window inset isRound property -->
-    <bool name="config_windowIsRound">true</bool>
+    <!-- Whether the main built-in display is round. This will affect
+         Configuration.screenLayout's SCREENLAYOUT_ROUND_MASK flags for Configurations on the
+         main built-in display. Change this in device-specific overlays.
+         Defaults to the older, deprecated config_windowIsRound already used in
+         some existing device-specific resource overlays. -->
+    <bool name="config_mainBuiltInDisplayIsRound">true</bool>
 
     <!-- The following two arrays specify which color space to use for display composition when a
          certain color mode is active.
